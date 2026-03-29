@@ -442,16 +442,3 @@ ls /dev/shm/
 - [ ] Replace fixed `MAX_FILES` / `MAX_PATH` with dynamic allocation
 
 ---
-##  Output Screenshots
-
-### Terminal Output
-![output](screenshots/output.png)
-
-### Log File
-![log](screenshots/log_file.png)
-
-### Terminal Output with Interrupt
-![Terminal](screenshots/interrupt_handling.png)
-
-### Changed File Content
-![file](screenshots/changed_file content.png)

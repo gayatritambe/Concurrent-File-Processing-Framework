@@ -1,4 +1,1 @@
-ADD_HEADER Project2026
-REPLACE TODO DONE
-DELETE_LINE DEBUG
-APPEND_LINE Completed
+Process all files in the folder

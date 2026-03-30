@@ -444,14 +444,14 @@ ls /dev/shm/
 ---
 ## 📸 Screenshots
 
-### Output — Changd File Content
-![file run](screenshots/changed_file.png)
+### 🔹 Changed File Content
+<img src="screenshots/changed_file.png" width="700"/>
 
-### Output — Log File
-![log file](screenshots/log_file.png)
+### 🔹 Log File
+<img src="screenshots/log_file.png" width="700"/>
 
-### Output — Terminal with Interrupt
-![interrupt handling](screenshots/interrupt_handling.png)
+### 🔹 Interrupt Handling
+<img src="screenshots/interrupt_handling.png" width="700"/>
 
-### Output — Terminal Output
-![output](screenshots/output.png)
+### 🔹 Terminal Output
+<img src="screenshots/output.png" width="700"/>

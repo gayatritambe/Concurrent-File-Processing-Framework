@@ -25,7 +25,24 @@ You get       →  all files transformed  +  log.txt tracking every operation
 Every file is processed **concurrently** across 3 worker processes, each running 2 threads — no file is ever processed twice.
 
 ---
+## Domain & Problem Context
 
+This project is inspired by real-world **IoT and industrial data processing systems**, where large volumes of sensor or log data are continuously generated and must be processed efficiently.
+
+In industries such as smart manufacturing, automotive systems, and IoT-based monitoring, multiple data sources generate files simultaneously. Processing these files sequentially can lead to performance bottlenecks and delays.
+
+To address this, the **Concurrent File Processing Framework** uses:
+- Multiple processes for parallel file handling
+- Threads for efficient task execution
+- IPC mechanisms for communication between components
+- Signals for system control and lifecycle management
+
+This architecture mimics real-world systems like:
+- Industrial log processors
+- IoT data aggregation systems
+- Distributed monitoring pipelines
+
+Thus, the project demonstrates how Linux system programming concepts are applied in practical, high-performance environments.
 ## Project Structure
 
 ```
